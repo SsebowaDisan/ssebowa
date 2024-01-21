@@ -86,7 +86,7 @@ model = Ssebowa_imgen()
 Like lets generate "A cat sitting on a bookshelf"
 
 ```bash
-image = model.generate_image(text="A cat sitting on a bookshelf")
+image = model.generate_image("A cat sitting on a bookshelf")
 ```
 ## Save the image to a file
 
