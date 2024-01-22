@@ -112,7 +112,7 @@ We welcome contributions to Ssebowa! Please feel free to open pull requests for 
 
 # License
 
-Ssebowa is released under the MIT License.
+Ssebowa is released under Apache License 2.0.
 
 # Contact
 
