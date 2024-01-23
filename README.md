@@ -8,7 +8,7 @@ Ssebowa is an open source Python library that provides  generative AI models, in
 
 With Ssebowa, you can easily generate text, translate languages, write different kinds of creative content, personalized image generation and answer your questions in an informative way.
 
-For more detailed usage information, please refer to: [Ssebowa's technical documentation](https://ssebowa.ai/documentation) 
+For more detailed usage information, please refer to: [Ssebowa's technical documentation](https://ssebowa.ai) 
 
 
 
@@ -73,6 +73,9 @@ images = predictor.predict(
 
 display_images(images, fig_size=10)
 ```
+<div align="center">
+    <img src=images/ssebowa_im2im.jpg width=90% />
+</div>
 
 ## Image Generation
 
@@ -93,6 +96,13 @@ image = model.generate_image("A cat sitting on a bookshelf")
 ```bash
 image.save("cat_on_bookshelf.jpg")
 ```
+<div align="center">
+    <img src=images/cat.jpg width=90% />
+</div>
+
+<div align="center">
+    <img src=images/cat1.jpg width=90% />
+</div>
 
 # Ssebowa Vision Language Model
 
@@ -106,6 +116,12 @@ model = ssebowa_vllm()
 response =  model.understand(image_path, prompt)
 print(response)
 ```
+
+<div align="center">
+    <img src=images/vllm.jpg width=90% />
+</div>
+
+
 # Contributing
 
 We welcome contributions to Ssebowa! Please feel free to open pull requests for bug fixes, new features, or documentation improvements.
