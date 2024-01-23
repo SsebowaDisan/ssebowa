@@ -100,6 +100,8 @@ image.save("cat_on_bookshelf.jpg")
     <img src=images/cat.jpg width=90% />
 </div>
 
+
+
 <div align="center">
     <img src=images/cat1.jpg width=90% />
 </div>
