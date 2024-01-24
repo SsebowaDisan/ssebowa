@@ -26,6 +26,16 @@ Then install Ssebowa
 pip install ssebowa
 ```
 
+If you are running this commands in colab or  jupyter notebook please use this,
+
+
+```bash
+!git clone https://github.com/huggingface/diffusers
+!cd diffusers
+!pip install .
+
+!pip install ssebowa
+```
 
 Now, you can access the different models by importing them from the library:
 
