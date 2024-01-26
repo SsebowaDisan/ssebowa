@@ -136,7 +136,7 @@ print(response)
 
 # Contributing
 
-We welcome contributions to Ssebowa! Please feel free to open pull requests for bug fixes, new features, or documentation improvements.
+Ssebowa is open to contributions! Guidelines in progress..
 
 # License
 
